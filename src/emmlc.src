@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ERL=`which erl`
+EMML_PATH=../../emml/ebin
+EMML_APP_PATH=$EMML_APP_PATH
+
+$ERL -noinput -pa $EMML_PATH -pa $EMML_APP_PATH -run emml_gen start $1 $2

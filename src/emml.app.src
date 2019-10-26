@@ -1,0 +1,7 @@
+{application,emml,
+ [{description, "Erlang Man Machine Language"},
+  {vsn, "%VSN%"},
+  {modules, [%MODULES%]},
+  {registered, []},
+  {applications, [kernel, stdlib]}
+  ]}.
